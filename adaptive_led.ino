@@ -4,7 +4,7 @@ const int LED_PIN = 9;       // PWM pin
 const float W = -0.2648f;    // weights from train_model.py
 const float B = 254.0f;
 
-const int N = 5;             // moving average window (fixes noisy readings)
+const int N = 5;             // moving average window (fixes noisy readings)  add filter
 int readings[N];            //
 int idx = 0;
 long total = 0;
