@@ -5,7 +5,7 @@ const float W = -0.2648f;    // weights from train_model.py
 const float B = 254.0f;
 
 const int N = 5;             // moving average window (fixes noisy readings)
-int readings[N];
+int readings[N];            //
 int idx = 0;
 long total = 0;
 unsigned long lastPrint = 0;
